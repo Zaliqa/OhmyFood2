@@ -1,7 +1,140 @@
-.h3-text {
-    background-color: blue;
+* {
+    box-sizing: border-box;
+  }
+
+* a {
+    text-decoration: none;
+    color: black;
+  }
+
+  body {
+    max-width: 100%;
+    margin: 0%;
+  }
+
+  .header-2-text, .container, .nav-section, .restaurant-section, .foot{
+    font-family: "Roboto",sans-serif;
 }
 
-.header-3-text{
-    background-color: rgb(25, 22, 207);
-}
+  #header, #main, #body, #footer {
+    max-width: 992px;
+    margin: 0;
+  }
+  
+  .foot {
+    background-color: #353535;
+    color: white;
+    height: 200px ;
+    margin-bottom: 0px;
+  }  
+
+@media screen and (max-width: 767px) {
+
+    .logo {
+        width: 180px;
+        height: 30px;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+
+      .logo-footer {
+        filter: invert(100%);
+        width: 110px;
+        height: 20px;
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      } 
+
+      .header-2{
+        background-color: #EAEAEA;
+      }
+
+      .fa-location-dot{
+        margin-left:100px;
+        margin-top: 20px;
+        font-size: 18px;
+        color:#353535;
+      }
+
+      .header-2-text{
+        margin-left: 130px;
+        margin-top: -10px;
+        color:#353535;
+      }
+
+      .restaurant-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .card-img-1,.card-img-3,.card-img-4{
+        margin-left: 20px;
+        height: 250px;
+        width:335px;
+        overflow: hidden;
+      }
+
+      .card-img-2{
+        margin-left: 20px;
+        height: 360px;
+        width:335px;
+        overflow: hidden;
+      }
+
+      .new-box{
+        font: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        color:#159274;
+        background-color: #99E2D0;
+        width: 80px;
+        height: 30px;
+        border-radius: 3px 3px;
+        margin-left: 260px;
+      }
+
+      .fa-stack{
+        color: #706e6e;
+        font-size: 23px;
+        margin-left: 310px;
+        margin-top: -60px;
+    }
+      .restaurant-name,.restaurant-location{
+        margin-left: 20px;
+      }
+      .restaurant-header{
+        padding-left: 20px;
+      }
+
+      .restaurant-name{
+        font-size: 19px;
+        font-weight: 600;
+      }
+
+      .restaurant-location{
+        margin-top: -33px;
+        font-size: 18px;
+        color: #706e6e;
+        font-weight: 100;
+      }
+    
+      .footer-text-2{
+        margin-left: 55px;
+        margin-top: -45px;
+      }
+    
+       .footer-text-3{
+        margin-left: 25px;
+        margin-top: -5px;
+      }
+    
+      .fa-handshake-angle, .fa-utensils{
+        margin-bottom: 25px;
+        margin-left: 25px;
+        font-size: 15px;
+      }
+    }

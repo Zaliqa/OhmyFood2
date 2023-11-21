@@ -71,8 +71,6 @@
         margin-bottom: 0px;
         padding-top: 35px;
         padding-left: 10px;
-        
-    
     }
 
     .fa-stack{
@@ -81,6 +79,11 @@
         margin-left: 310px;
         margin-top: -60px;
     }
+
+    .tick-container{
+      display:none;
+    }
+
 
     .half-underlined {
         border-bottom: 3px solid #99E2D0;
